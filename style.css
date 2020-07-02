@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo_container{
+    width: 6%;
+}
+
+.logo_container  img{
+    width: 100%;
+}
+
+.nav_content ul{
+  display: flex;
+  
+}
+
+.nav_content ul li{
+    
+    list-style-type: none;
+    margin-right: 12px ;
+}
+
+.nav_content ul li a{
+    text-decoration: none;
+}
+
+.sign_div{
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+}
+
+.sign_div .btn{
+    margin-right: 5px;
+    width: 47%;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.sign_div .btn2{
+    width: 49%;
+    border-radius: 10px;
+    background: #E62FE6;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.dot{
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background-color: #E62FE6;
+    display: none;
+}
+
+.nav_content ul li a:hover{
+    color: #E62FE6;
+
+}
+
+
+@media(max-width:768px){
+    
+}
